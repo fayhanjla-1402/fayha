@@ -1,3 +1,10 @@
+/*
+Nama        : Fayha Najla Rahman
+NPM         : 140810250011
+Nama Program: Membalik String
+Tanggal Buat: 1 Oktober 2025 
+*/
+
 #include <iostream>
 using namespace std;
 
