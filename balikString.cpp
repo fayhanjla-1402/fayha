@@ -8,20 +8,19 @@ Tanggal Buat: 1 Oktober 2025
 #include <iostream>
 using namespace std;
 
-string balikString(string str){
-    if (str.length() == 0)
-        return "";
-    
-    return balikString(str.substr(1)) + str[0];
 
-}
+
 int main(){
     string input;
     cout << "Masukkan kata : ";
     getline(cin, input);
 
-    string hasil = balikString (input);
-    cout << "String dibalik : " << hasil << endl;
+    int jmlHuruf = input.length(); // length untuk menghitung jumlah karakter
+
+    for(int i = jmlHuruf - 1; i >= 0; i--){
+        cout << input[i];
+
+    }
 
     return 0;
 }
