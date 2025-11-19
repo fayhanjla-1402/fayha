@@ -16,7 +16,7 @@ void shellSort(int arr[], int n) {
             int temp = arr[i];    // simpan elemen yang akan disisipkan
             int j = i;
             // Geser elemen arr[j-gap], arr[j-2*gap], ... yang lebih besar dari temp
-            while (j >= gap && arr[j - gap] > temp) {
+            while (j >= gap && arr[j - gap] < temp) {
                 arr[j] = arr[j - gap];
                 j -= gap;
             }
