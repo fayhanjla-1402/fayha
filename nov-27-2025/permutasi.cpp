@@ -2,7 +2,7 @@
 Nama        : Fayha Najla Rahman
 NPM         : 140810250011
 Nama Program: Permutasi
-Tanggal Buat: 1 Oktober 2025
+Tanggal Buat: 27 November 2025
 Deskripsi   : menggunakan rumus permutasi P(n,r) = n!/(n−r)!
 */
 
